@@ -371,5 +371,3 @@ unsigned long Text(String dados){
   return micros() - start;
   dados = "";
 }
-
-//||dados == "5"||dados == "6"||dados == "7"||dados == "8"||dados == "9"||dados == "10"||dados == "11"||dados == "12"||dados == "13"||dados == "14"
