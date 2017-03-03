@@ -237,8 +237,8 @@ unsigned long Text(String dados){
   {
     tft.setTextSize(5);
     tft.println("Melhor ");
-    tft.println("agora, ");
-    tft.println("vamos ");
+    tft.println("agora.");
+    tft.println("Vamos ");
     tft.println("brincar?");
   }  
 //  if (dados == "2")
@@ -273,8 +273,8 @@ unsigned long Text(String dados){
     if (dados == "2")
   {
     tft.setTextSize(4);
-    tft.println("Eu sabia, ");
-    tft.println("mas agora ");
+    tft.println("Eu sabia");
+    tft.println("mas agora");
     tft.println("eu esqueci.");
     tft.setCursor(140,150);
     tft.setRotation(2);
@@ -320,8 +320,9 @@ unsigned long Text(String dados){
   {
     tft.setTextSize(5);
     tft.println("Sim, vamos");
-    tft.println("jogar um");
-    tft.println("jogo?");
+    tft.println("jogar");
+    tft.println("alguma");
+    tft.println("coisa?");
     tft.setCursor(140,80);
     tft.setRotation(2);
     tft.setTextSize(6);
