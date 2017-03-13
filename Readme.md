@@ -6,7 +6,16 @@
 
 [![N|Solid](http://i.imgur.com/hCm5tRC.png)](https://guimo.toys) [![N|Solid](http://i.imgur.com/CwIqAOV.jpg)](https://guimo.toys) 
 
-## What is the [Guimo&trade;] Hardware Sources?    
+## What is the [Guimo&trade;] Hardware Sources?   
+
+Aqui na pasta de Hardware existe uma lista de todos os componentes necessários para se fazer um Guimo. Essa lista chama-se BOM-Guimo, sinta-se à vontade para baixá-la e adicionar componentes que possam ser compatíveis.
+
+Além disso, há um arquivo com o esquemático da placa do Core. Faça o download e exporte o arquivo da PCB em PDF para posteriormente imprimí-lo e fazer sua própria placa caseira do guimo.
+Abaixo segue um tutorial de como fazer sua própria PCB caseira e os materiais necessários:
+http://www.robsonmartins.com/eletr/transfterm/
+
+* Observação:
+Na hora de fazer a impressão do seu PDF, deve-se atentar-se à orientação da imagem, pois a mesma deve estar invertida como um espelho do circuito final desejado.
 
 ## License
 Copyright CERN 2013.
