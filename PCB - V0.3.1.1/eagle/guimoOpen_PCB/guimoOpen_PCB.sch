@@ -4627,13 +4627,6 @@ HD-5 = Sensor de Toque</text>
 <pinref part="M1" gate="G$1" pin="D4"/>
 </segment>
 </net>
-<net name="N$4" class="0">
-<segment>
-<pinref part="U1" gate="G$1" pin="SDA"/>
-<pinref part="M1" gate="G$1" pin="A6"/>
-<wire x1="71.12" y1="88.9" x2="96.52" y2="88.9" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="N$7" class="0">
 <segment>
 <pinref part="HD" gate="-1" pin="1"/>
@@ -4714,9 +4707,9 @@ HD-5 = Sensor de Toque</text>
 <pinref part="BD" gate="-12" pin="1"/>
 <wire x1="66.04" y1="33.02" x2="66.04" y2="40.64" width="0.1524" layer="91"/>
 <wire x1="66.04" y1="40.64" x2="83.82" y2="40.64" width="0.1524" layer="91"/>
-<wire x1="83.82" y1="40.64" x2="83.82" y2="86.36" width="0.1524" layer="91"/>
-<wire x1="83.82" y1="86.36" x2="71.12" y2="86.36" width="0.1524" layer="91"/>
-<pinref part="M1" gate="G$1" pin="A5"/>
+<wire x1="83.82" y1="40.64" x2="83.82" y2="91.44" width="0.1524" layer="91"/>
+<pinref part="M1" gate="G$1" pin="A7"/>
+<wire x1="83.82" y1="91.44" x2="71.12" y2="91.44" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$16" class="0">
@@ -4724,9 +4717,9 @@ HD-5 = Sensor de Toque</text>
 <pinref part="BD" gate="-11" pin="1"/>
 <wire x1="63.5" y1="33.02" x2="63.5" y2="43.18" width="0.1524" layer="91"/>
 <wire x1="63.5" y1="43.18" x2="81.28" y2="43.18" width="0.1524" layer="91"/>
-<wire x1="81.28" y1="43.18" x2="81.28" y2="83.82" width="0.1524" layer="91"/>
-<wire x1="81.28" y1="83.82" x2="71.12" y2="83.82" width="0.1524" layer="91"/>
-<pinref part="M1" gate="G$1" pin="A4"/>
+<wire x1="81.28" y1="43.18" x2="81.28" y2="88.9" width="0.1524" layer="91"/>
+<pinref part="M1" gate="G$1" pin="A6"/>
+<wire x1="81.28" y1="88.9" x2="71.12" y2="88.9" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$19" class="0">
@@ -4747,15 +4740,6 @@ HD-5 = Sensor de Toque</text>
 <wire x1="78.74" y1="45.72" x2="78.74" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="78.74" y1="78.74" x2="71.12" y2="78.74" width="0.1524" layer="91"/>
 <pinref part="M1" gate="G$1" pin="A2"/>
-</segment>
-</net>
-<net name="N$3" class="0">
-<segment>
-<pinref part="U1" gate="G$1" pin="SCL"/>
-<wire x1="96.52" y1="93.98" x2="81.28" y2="93.98" width="0.1524" layer="91"/>
-<wire x1="81.28" y1="93.98" x2="81.28" y2="91.44" width="0.1524" layer="91"/>
-<wire x1="81.28" y1="91.44" x2="71.12" y2="91.44" width="0.1524" layer="91"/>
-<pinref part="M1" gate="G$1" pin="A7"/>
 </segment>
 </net>
 <net name="N$17" class="0">
@@ -4867,6 +4851,24 @@ HD-5 = Sensor de Toque</text>
 <junction x="25.4" y="119.38"/>
 <wire x1="15.24" y1="119.38" x2="25.4" y2="119.38" width="0.1524" layer="91"/>
 <pinref part="M1" gate="G$1" pin="GND.1"/>
+</segment>
+</net>
+<net name="N$3" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="SCL"/>
+<wire x1="96.52" y1="93.98" x2="88.9" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="93.98" x2="88.9" y2="86.36" width="0.1524" layer="91"/>
+<pinref part="M1" gate="G$1" pin="A5"/>
+<wire x1="88.9" y1="86.36" x2="71.12" y2="86.36" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$4" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="SDA"/>
+<wire x1="96.52" y1="88.9" x2="91.44" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="91.44" y1="88.9" x2="91.44" y2="83.82" width="0.1524" layer="91"/>
+<pinref part="M1" gate="G$1" pin="A4"/>
+<wire x1="91.44" y1="83.82" x2="71.12" y2="83.82" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
